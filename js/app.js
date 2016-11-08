@@ -18,7 +18,7 @@ var ViewModel = function () {
 		} else if (this.clickCount() < 250) {
 			return 'Adult';
 		} else if (this.clickCount() < 1000) {
-			return 'Grand Master';
+			return 'Elder';
 		} else {
 			return 'Lost Sage';
 		}
