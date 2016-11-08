@@ -1,4 +1,3 @@
-ud989-cat-clicker-ko-starter
-============================
+# cat-clicker-ko
+A remake of cat-clicker using the Knockout framework.
 
-ud989-cat-clicker-ko-starter
