@@ -23,6 +23,13 @@ var ViewModel = function () {
 			return 'Lost Sage';
 		}
 	}, this);
+
+	this.nicknames = ko.observableArray([
+		{ nickname: 'Tabtab' }, 
+		{ nickname: 'T-Bone' }, 
+		{ nickname: 'Mr. T' }, 
+		{ nickname: 'Tabitha Tab Tabby Catty Cat' }
+	]);
 }
 
 ko.applyBindings(new ViewModel())
