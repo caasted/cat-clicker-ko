@@ -7,9 +7,7 @@
 <body>
     <h2>Cat Options</h2>
     <ul id="cat-list" data-bind="foreach: catList">
-        <span data-bind="click: $parent.selectCat">
-            <li data-bind="text: name"></li>
-        </span>
+        <li data-bind="text: name, click: $parent.selectCat"></li>
     </ul>
     <div id="cat" data-bind="with: currentCat">
 
