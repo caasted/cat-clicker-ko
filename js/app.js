@@ -74,11 +74,6 @@ var Cat = function (data) {
 
 }
 
-
-//  TODO: 
-//	[  ] Make the current cats show up
-//  [  ] Make the currentCat change when you click on a cat in the list
-
 var ViewModel = function () {
 	var self = this;
 
